@@ -12,7 +12,7 @@ A GitHub Actions release-health dashboard for public repositories. Inspect workf
 - No token or backend required for public repositories
 
 ## Local development
-Requires Node.js 20+.
+Requires Node.js 24+.
 
 ```bash
 npm install
@@ -28,4 +28,4 @@ The included Actions workflow builds and deploys on pushes to `main`. In reposit
 Uses the public GitHub REST API for repository metadata, Actions workflow runs, and run jobs. Unauthenticated requests are rate-limited by GitHub. Private repositories require a secure server-side authentication layer; never expose a personal access token in client-side code or `VITE_` variables.
 
 ## License
-MIT
+MIT License. See [`LICENSE.md`](LICENSE.md).
